@@ -10,7 +10,7 @@ Thai Text Classification Benchmarks
 
 ## [wongnai-corpus](https://github.com/wongnai/wongnai-corpus)
 
-Codes can be run to confirm performance at this [notebook](https://github.com/cstorm125/thai2fit/blob/master/wongnai_cls/classification.ipynb).
+Performance of [wongnai-corpus](https://github.com/wongnai/wongnai-corpus) is based on the test set of [Wongnai Challenge: Review Rating Prediction](https://www.kaggle.com/c/wongnai-challenge-review-rating-prediction/). Codes can be run to confirm performance at this [notebook](https://github.com/cstorm125/thai2fit/blob/master/wongnai_cls/classification.ipynb).
 
 | model     | micro_f1_public | micro_f1_private | 
 |-----------|-----------------|------------------|
