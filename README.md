@@ -26,7 +26,9 @@ Performance of [wongnai-corpus](https://github.com/wongnai/wongnai-corpus) is ba
 
 ## [wisesight-sentiment](https://github.com/PyThaiNLP/wisesight-sentiment)
 
-Performance of [wisesight-sentiment](https://github.com/PyThaiNLP/wisesight-sentiment) is based on the test set of [WISESIGHT Sentiment Analysis](https://www.kaggle.com/c/wisesight-sentiment/). Codes can be run to confirm performance at this [notebook](https://github.com/PyThaiNLP/wisesight-sentiment/blob/master/competition.ipynb).
+Performance of [wisesight-sentiment](https://github.com/PyThaiNLP/wisesight-sentiment) is based on the test set of [WISESIGHT Sentiment Analysis](https://www.kaggle.com/c/wisesight-sentiment/). Codes can be run to confirm performance at this [notebook](https://github.com/PyThaiNLP/wisesight-sentiment/blob/master/competition.ipynb). 
+
+**Disclaimer** Note that the labels are obtained manually and are prone to errors so if you are planning to apply the models in the benchmark for real-world applications, be sure to benchmark it with **your own dataset**.
 
 | Model               | Public Accuracy | Private Accuracy |
 |---------------------|-----------------|------------------|
