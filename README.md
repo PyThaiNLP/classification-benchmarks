@@ -4,11 +4,11 @@ Thai Text Classification Benchmarks
 | Datasets                                                    | Style    | Objective | Labels | Size | 
 |-------------------------------------------------------------|----------|-----------|--------|------|
 | [wongnai-corpus](https://github.com/wongnai/wongnai-corpus) | Informal | Sentiment | 5      | 40k  |(https://github.com/cstorm125/thai2fit/blob/master/notebook/lstm_wongnai.ipynb)               |
-| [prachathai-67k](https://github.com/PyThaiNLP/prachathai-67k) | Formal   | Topic     | 12    | 67k  |
+| [prachathai-67k](https://github.com/PyThaiNLP/prachathai-67k): body_text | Formal   | Topic     | 12    | 67k  |
 | [wisesight-sentiment](https://github.com/PyThaiNLP/wisesight-sentiment)  | Informal | Sentiment | 4   | 28k  | 
-| [truevoice-intent](https://github.com/PyThaiNLP/truevoice-intent): action  | Informal | Intent    | 8    | 12k  |
-| [truevoice-intent](https://github.com/PyThaiNLP/truevoice-intent): object  | Informal | Intent    | 26    | 12k  |
-| [truevoice-intent](https://github.com/PyThaiNLP/truevoice-intent): destination  | Informal | Intent    | 7    | 12k  |
+| [truevoice-intent](https://github.com/PyThaiNLP/truevoice-intent): action  | Informal | Intent    | 8    | 16k  |
+| [truevoice-intent](https://github.com/PyThaiNLP/truevoice-intent): object  | Informal | Intent    | 26    | 16k  |
+| [truevoice-intent](https://github.com/PyThaiNLP/truevoice-intent): destination  | Informal | Intent    | 7    | 16k  |
 
 ## [wongnai-corpus](https://github.com/wongnai/wongnai-corpus)
 
@@ -22,7 +22,7 @@ Performance of [wongnai-corpus](https://github.com/wongnai/wongnai-corpus) is ba
 | Kaggle Score | 0.59139          | 0.58139          |
 | [BERT](https://github.com/ThAIKeras/bert) | 0.56612 | 0.57057 |
 
-## [prachathai-67k](https://github.com/PyThaiNLP/prachathai-67k)
+## [prachathai-67k](https://github.com/PyThaiNLP/prachathai-67k): body_text
 
 ## [wisesight-sentiment](https://github.com/PyThaiNLP/wisesight-sentiment)
 
