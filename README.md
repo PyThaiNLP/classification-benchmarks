@@ -6,8 +6,6 @@ Thai Text Classification Benchmarks
 | [wongnai-corpus](https://github.com/wongnai/wongnai-corpus) | Informal | Sentiment | 5      | 40k  |(https://github.com/cstorm125/thai2fit/blob/master/notebook/lstm_wongnai.ipynb)               |
 | [prachathai-67k](https://github.com/PyThaiNLP/prachathai-67k): body_text | Formal   | Topic     | 12    | 67k  |
 | [wisesight-sentiment](https://github.com/PyThaiNLP/wisesight-sentiment)  | Informal | Sentiment | 4   | 28k  | 
-| [truevoice-intent](https://github.com/PyThaiNLP/truevoice-intent): action  | Informal | Intent    | 8    | 16k  |
-| [truevoice-intent](https://github.com/PyThaiNLP/truevoice-intent): object  | Informal | Intent    | 26    | 16k  |
 | [truevoice-intent](https://github.com/PyThaiNLP/truevoice-intent): destination  | Informal | Intent    | 7    | 16k  |
 
 ## [wongnai-corpus](https://github.com/wongnai/wongnai-corpus)
@@ -37,9 +35,5 @@ Performance of [wisesight-sentiment](https://github.com/PyThaiNLP/wisesight-sent
 | ULMFit              | 0.71259         | 0.74194          |
 | ULMFit Semi-supervised    | 0.73119     | 0.75859      |
 | **[ULMFit Semi-supervised Repeated One Time](https://github.com/PyThaiNLP/wisesight-sentiment/blob/master/competition.ipynb)**    | **0.73372**     | **0.75968**      |
-
-## [truevoice-intent](https://github.com/PyThaiNLP/truevoice-intent): action
-
-## [truevoice-intent](https://github.com/PyThaiNLP/truevoice-intent): object
 
 ## [truevoice-intent](https://github.com/PyThaiNLP/truevoice-intent): destination
