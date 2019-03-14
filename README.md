@@ -1,6 +1,10 @@
 # classification-benchmarks
 Thai Text Classification Benchmarks
 
+We provide 4 datasets for Thai text classification in different styles, objectives and number labels. We also created some preliminary benchmarks using [fastText](https://fasttext.cc), linear models (linearSVC and logistic regression) and [thai2fit](https://github.com/cstorm125/thai2fit)'s implementation of [ULMFit](https://arxiv.org/abs/1801.06146). All datasets but [wongnai-corpus](https://github.com/wongnai/wongnai-corpus) are released under Apache 2.0 license by [pyThaiNLP](https://github.com/PyThaiNLP/).
+
+## Dataset Description
+
 | Datasets                                                    | Style    | Objective | Labels | Size | 
 |-------------------------------------------------------------|----------|-----------|--------|------|
 | [wongnai-corpus](https://github.com/wongnai/wongnai-corpus) | Informal | Sentiment | 5      | 40k  |(https://github.com/cstorm125/thai2fit/blob/master/notebook/lstm_wongnai.ipynb)               |
@@ -53,3 +57,9 @@ We benchmark [truevoice-intent](https://github.com/PyThaiNLP/truevoice-intent) b
 | fastText  | 0.384116 | 0.384116 |
 | LinearSVC | 0.807876 | 0.327565 |
 | **ULMFit**    | **0.834981**  | **0.834981** |
+
+## Special Thanks
+
+* [Ekapol Chuangsuwanich](https://github.com/ekapolc) for pioneering [wongnai-corpus](https://github.com/wongnai/wongnai-corpus), [wisesight-sentiment](https://github.com/PyThaiNLP/wisesight-sentiment), and [truevoice-intent](https://github.com/PyThaiNLP/truevoice-intent) for his [NLP classes](https://github.com/ekapolc/nlp_course) at Chulalongkonr University. 
+
+* [@lukkiddd](https://github.com/lukkiddd) for data exploration and linear model codes.
