@@ -45,3 +45,11 @@ Performance of [wisesight-sentiment](https://github.com/PyThaiNLP/wisesight-sent
 | **[ULMFit Semi-supervised Repeated One Time](https://github.com/PyThaiNLP/wisesight-sentiment/blob/master/competition.ipynb)**    | **0.73372**     | **0.75968**      |
 
 ## [truevoice-intent](https://github.com/PyThaiNLP/truevoice-intent): destination
+
+We benchmark [truevoice-intent](https://github.com/PyThaiNLP/truevoice-intent) by using `destination` as target and construct a 7-class multi-class classification. The performance is measured by micro-averaged accuracy and F1 score. Codes can be run to  confirm performance at this [notebook](https://github.com/PyThaiNLP/truevoice-intent/blob/master/classification.ipynb). We also provide performance metrics by class in the notebook.
+
+| model     | accuracy | micro-F1 |
+|-----------|----------|----------|
+| fastText  | 0.384116 | 0.384116 |
+| LinearSVC | 0.807876 | 0.327565 |
+| **ULMFit**    | **0.834981**  | **0.834981** |
