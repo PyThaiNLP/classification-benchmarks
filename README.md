@@ -22,6 +22,14 @@ Performance of [wongnai-corpus](https://github.com/wongnai/wongnai-corpus) is ba
 
 ## [prachathai-67k](https://github.com/PyThaiNLP/prachathai-67k): body_text
 
+We benchmark [prachathai-67k](https://github.com/PyThaiNLP/prachathai-67k) by using `body_text` as text features and construct a 12-label multi-label classification. The performance is measured by macro-averaged accuracy and F1 score. Codes can be run to  confirm performance at this [notebook](https://github.com/PyThaiNLP/prachathai-67k/blob/master/classification.ipynb). We also provide performance metrics by class in the notebook.
+
+| Model     | Macro-accuracy | Macro-F1 |
+|-----------|----------------|----------|
+| fastText  | 0.9302         | 0.5529   |
+| LinearSVC | 0.513277       | 0.552801 |
+| **ULMFit**    | **0.948737**       | **0.744875**	 |
+
 ## [wisesight-sentiment](https://github.com/PyThaiNLP/wisesight-sentiment)
 
 Performance of [wisesight-sentiment](https://github.com/PyThaiNLP/wisesight-sentiment) is based on the test set of [WISESIGHT Sentiment Analysis](https://www.kaggle.com/c/wisesight-sentiment/). Codes can be run to confirm performance at this [notebook](https://github.com/PyThaiNLP/wisesight-sentiment/blob/master/competition.ipynb). 
