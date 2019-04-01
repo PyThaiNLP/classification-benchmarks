@@ -36,7 +36,7 @@ We benchmark [prachathai-67k](https://github.com/PyThaiNLP/prachathai-67k) by us
 
 ## [wisesight-sentiment](https://github.com/PyThaiNLP/wisesight-sentiment)
 
-Performance of [wisesight-sentiment](https://github.com/PyThaiNLP/wisesight-sentiment) is based on the test set of [WISESIGHT Sentiment Analysis](https://www.kaggle.com/account/login?ReturnUrl=/t/0b22205d288143bb8672527b04690a97). Codes can be run to confirm performance at this [notebook](https://github.com/PyThaiNLP/wisesight-sentiment/blob/master/competition.ipynb). 
+Performance of [wisesight-sentiment](https://github.com/PyThaiNLP/wisesight-sentiment) is based on the test set of [WISESIGHT Sentiment Analysis](https://www.kaggle.com/account/login?ReturnUrl=/t/0b22205d288143bb8672527b04690a97). Codes can be run to confirm performance at this [notebook](https://github.com/PyThaiNLP/wisesight-sentiment/blob/master/kaggle-competition/competition.ipynb). 
 
 **Disclaimer** Note that the labels are obtained manually and are prone to errors so if you are planning to apply the models in the benchmark for real-world applications, be sure to benchmark it with **your own dataset**.
 
