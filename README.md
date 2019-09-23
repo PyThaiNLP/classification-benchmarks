@@ -18,7 +18,7 @@ Performance of [wongnai-corpus](https://github.com/wongnai/wongnai-corpus) is ba
 
 | model     | Public Micro-F1 | Private Micro-F1 | 
 |-----------|-----------------|------------------|
-| [**ULMFit Knight**](https://www.facebook.com/photo.php?fbid=10215789035573261&set=pcb.795048317543327&type=3&theater&ifg=1) | 0.61109 | 0.60322 |
+| [**ULMFit Knight**](https://www.facebook.com/photo.php?fbid=10215789035573261&set=pcb.795048317543327&type=3&theater&ifg=1) | 0.61109 | 0.62580 |
 | [ULMFit](https://github.com/cstorm125/thai2fit/) | **0.59313**          | **0.60322**           |
 | fastText | 0.5145          | 0.5109           |
 | LinearSVC | 0.5022          | 0.4976           |
