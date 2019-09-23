@@ -18,11 +18,13 @@ Performance of [wongnai-corpus](https://github.com/wongnai/wongnai-corpus) is ba
 
 | model     | Public Micro-F1 | Private Micro-F1 | 
 |-----------|-----------------|------------------|
-| [**ULMFit**](https://github.com/cstorm125/thai2fit/) | **0.59313**          | **0.60322**           |
+| [**ULMFit Knight**](https://www.facebook.com/photo.php?fbid=10215789035573261&set=pcb.795048317543327&type=3&theater&ifg=1) | 0.61109 | 0.60322 |
+| [ULMFit](https://github.com/cstorm125/thai2fit/) | **0.59313**          | **0.60322**           |
 | fastText | 0.5145          | 0.5109           |
 | LinearSVC | 0.5022          | 0.4976           |
 | Kaggle Score | 0.59139          | 0.58139          |
 | [BERT](https://github.com/ThAIKeras/bert) | 0.56612 | 0.57057 |
+
 
 ## [prachathai-67k](https://github.com/PyThaiNLP/prachathai-67k): body_text
 
@@ -55,7 +57,7 @@ We benchmark [truevoice-intent](https://github.com/PyThaiNLP/truevoice-intent) b
 | model     | accuracy | micro-F1 |
 |-----------|----------|----------|
 | fastText  | 0.384116 | 0.384116 |
-| LinearSVC | 0.807876 | 0.327565 |
+| LinearSVC | 0.307876 | 0.327565 |
 | **ULMFit**    | **0.834981**  | **0.834981** |
 
 ## Special Thanks
