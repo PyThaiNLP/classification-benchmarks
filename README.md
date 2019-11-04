@@ -57,8 +57,9 @@ We benchmark [truevoice-intent](https://github.com/PyThaiNLP/truevoice-intent) b
 | model     | accuracy | micro-F1 |
 |-----------|----------|----------|
 | fastText  | 0.384116 | 0.384116 |
-| LinearSVC | 0.307876 | 0.327565 |
-| **ULMFit**    | **0.834981**  | **0.834981** |
+| LinearSVC-Tfidf | 0.307876 | 0.327565 |
+| **[LinearSVC-CountVectorizer](https://drive.google.com/drive/folders/1twZ2euWR6QE5LNzVqmftKSA0tQCNbZnl?fbclid=IwAR1XeRwF0Pk9LtW9p9LaK5az7ZEYRtuApJxKwsiggL-XA0K3z6NUqcdMJT0)** | **0.902349** | **0.902349**
+| ULMFit    | 0.834981  | 0.834981 |
 
 ## Special Thanks
 
