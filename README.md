@@ -52,14 +52,12 @@ Performance of [wisesight-sentiment](https://github.com/PyThaiNLP/wisesight-sent
 
 ## [truevoice-intent](https://github.com/PyThaiNLP/truevoice-intent): destination
 
-We benchmark [truevoice-intent](https://github.com/PyThaiNLP/truevoice-intent) by using `destination` as target and construct a 7-class multi-class classification. The performance is measured by micro-averaged accuracy and F1 score. Codes can be run to  confirm performance at this [notebook](https://github.com/PyThaiNLP/truevoice-intent/blob/master/classification.ipynb). We also provide performance metrics by class in the notebook.
+We benchmark [truevoice-intent](https://github.com/PyThaiNLP/truevoice-intent) by using `destination` as target and construct a 7-class multi-class classification. The performance is measured by micro-averaged and macro-averaged accuracy and F1 score. Codes can be run to  confirm performance at this [notebook](https://github.com/PyThaiNLP/truevoice-intent/blob/master/classification.ipynb). We also provide performance metrics by class in the notebook.
 
-| model     | accuracy | micro-F1 |
-|-----------|----------|----------|
-| fastText  | 0.384116 | 0.384116 |
-| LinearSVC-Tfidf | 0.307876 | 0.327565 |
-| **[LinearSVC-CountVectorizer](https://drive.google.com/drive/folders/1twZ2euWR6QE5LNzVqmftKSA0tQCNbZnl?fbclid=IwAR1XeRwF0Pk9LtW9p9LaK5az7ZEYRtuApJxKwsiggL-XA0K3z6NUqcdMJT0)** | **0.902349** | **0.902349**
-| ULMFit    | 0.834981  | 0.834981 |
+| model     | macro-accuracy | micro-accuracy | macro-F1       | micro-F1   |
+|-----------|----------------|----------------|----------------|------------|
+| **LinearSVC** | **0.957806**       | **0.95747712**     |       **0.869411** | **0.85116993** |
+| ULMFit    | 0.955066       | 0.84273111     | 0.852149       | 0.84273111 |
 
 ## Special Thanks
 
