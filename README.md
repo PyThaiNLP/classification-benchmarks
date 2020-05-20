@@ -10,7 +10,7 @@ We provide 4 datasets for Thai text classification in different styles, objectiv
 | Datasets                                                    | Style    | Objective | Labels | Size | 
 |-------------------------------------------------------------|----------|-----------|--------|------|
 | [prachathai-67k](https://github.com/PyThaiNLP/prachathai-67k): body_text | Formal (online newspapers), News   | Topic     | 12    | 67k  |
-| [truevoice-intent](https://github.com/PyThaiNLP/truevoice-intent): destination  | Informal (transcription), Call center | Intent    | 7    | 16k  |
+| [truevoice-intent](https://github.com/PyThaiNLP/truevoice-intent): destination  | Informal (call center transcription), Customer service | Intent    | 7    | 16k  |
 | [wisesight-sentiment](https://github.com/PyThaiNLP/wisesight-sentiment)  | Informal (social media), Conversation/opinion | Sentiment | 4   | 28k  | 
 | [wongnai-corpus](https://github.com/wongnai/wongnai-corpus) | Informal (review site), Restuarant review | Sentiment | 5      | 40k  |(https://github.com/cstorm125/thai2fit/blob/master/notebook/lstm_wongnai.ipynb)               |
 
