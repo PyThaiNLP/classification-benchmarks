@@ -53,7 +53,7 @@ Performance of [wisesight-sentiment](https://github.com/PyThaiNLP/wisesight-sent
 
 Performance of [wongnai-corpus](https://github.com/wongnai/wongnai-corpus) is based on the test set of [Wongnai Challenge: Review Rating Prediction](https://www.kaggle.com/account/login?ReturnUrl=%2Ft%2F5db04b4da3264e1091d83463b110153b). Codes can be run to confirm performance at this [notebook](https://github.com/cstorm125/thai2fit/blob/master/wongnai_cls/classification.ipynb).
 
-| model     | Public Micro-F1 | Private Micro-F1 | 
+| Model     | Public Micro-F1 | Private Micro-F1 | 
 |-----------|-----------------|------------------|
 | [**ULMFit Knight**](https://www.facebook.com/photo.php?fbid=10215789035573261&set=pcb.795048317543327&type=3&theater&ifg=1) | **0.61109** | **0.62580** |
 | [ULMFit](https://github.com/cstorm125/thai2fit/) | 0.59313          | 0.60322           |
