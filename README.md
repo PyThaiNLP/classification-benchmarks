@@ -3,7 +3,7 @@ Thai Text Classification Benchmarks
 
 We provide 4 datasets for Thai text classification in different styles, objectives, and number labels. We also created some preliminary benchmarks using [fastText](https://fasttext.cc), linear models (linearSVC and logistic regression), and [thai2fit](https://github.com/cstorm125/thai2fit)'s implementation of [ULMFit](https://arxiv.org/abs/1801.06146).
 
-`prachathai-67k`, `truevoice-intent`, and all code in this repository are released under Apache License 2.0 by [pyThaiNLP](https://github.com/PyThaiNLP/). `wisesight-sentiment` is released to public domain by [Wisesight](https://wisesight.com/). `wongnai-corpus` is released under GNU Lesser General Public License v3.0 by [Wongnai](https://www.wongnai.com/).
+`prachathai-67k`, `truevoice-intent`, and all code in this repository are released under Apache License 2.0 by [pyThaiNLP](https://github.com/PyThaiNLP/). `wisesight-sentiment` is released to public domain, using CC0 1.0 Universal License, by [Wisesight](https://wisesight.com/). `wongnai-corpus` is released under GNU Lesser General Public License v3.0 by [Wongnai](https://www.wongnai.com/).
 
 ## Dataset Description
 
