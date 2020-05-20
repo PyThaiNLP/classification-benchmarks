@@ -28,7 +28,7 @@ We benchmark [prachathai-67k](https://github.com/PyThaiNLP/prachathai-67k) by us
 
 We benchmark [truevoice-intent](https://github.com/PyThaiNLP/truevoice-intent) by using `destination` as target and construct a 7-class multi-class classification. The performance is measured by micro-averaged and macro-averaged accuracy and F1 score. Codes can be run to  confirm performance at this [notebook](https://github.com/PyThaiNLP/truevoice-intent/blob/master/classification.ipynb). We also provide performance metrics by class in the notebook.
 
-| model     | macro-accuracy | micro-accuracy | macro-F1       | micro-F1   |
+| Model     | Macro-accuracy | Micro-accuracy | Macro-F1       | Micro-F1   |
 |-----------|----------------|----------------|----------------|------------|
 | **LinearSVC** | **0.957806**       | **0.95747712**     |       **0.869411** | **0.85116993** |
 | ULMFit    | 0.955066       | 0.84273111     | 0.852149       | 0.84273111 |
