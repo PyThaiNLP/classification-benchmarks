@@ -1,5 +1,4 @@
-# classification-benchmarks
-Thai Text Classification Benchmarks
+# Thai Text Classification Benchmarks
 
 We provide 4 datasets for Thai text classification in different styles, objectives, and number labels. We also created some preliminary benchmarks using [fastText](https://fasttext.cc), linear models (linearSVC and logistic regression), and [thai2fit](https://github.com/cstorm125/thai2fit)'s implementation of [ULMFit](https://arxiv.org/abs/1801.06146).
 
