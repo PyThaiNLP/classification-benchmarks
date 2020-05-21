@@ -31,7 +31,7 @@ We benchmark [truevoice-intent](https://github.com/PyThaiNLP/truevoice-intent) b
 |-----------|----------------|----------------|----------------|------------|
 | **LinearSVC** | **0.957806**       | **0.95747712**     |       **0.869411** | **0.85116993** |
 | ULMFit    | 0.955066       | 0.84273111     | 0.852149       | 0.84273111 |
-
+| [BERT](https://github.com/KongpolC/thai_intent_classification_using_bert) | 0.8921 | 0.85 | 0.87 | 0.85 |
 
 ## [wisesight-sentiment](https://github.com/PyThaiNLP/wisesight-sentiment)
 
