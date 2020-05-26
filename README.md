@@ -66,7 +66,20 @@ Performance of [wongnai-corpus](https://github.com/wongnai/wongnai-corpus) is ba
 | [BERT](https://github.com/ThAIKeras/bert) | 0.56612 | 0.57057 |
 | [USE](https://tfhub.dev/google/universal-sentence-encoder-multilingual/3) | 0.42688 | 0.41031 |
 
-
+## BibTeX
+```
+@software{cstorm125_2020_3852912,
+  author       = {cstorm125 and
+                  lukkiddd},
+  title        = {PyThaiNLP/classification-benchmarks: v0.1-alpha},
+  month        = may,
+  year         = 2020,
+  publisher    = {Zenodo},
+  version      = {v0.1-alpha},
+  doi          = {10.5281/zenodo.3852912},
+  url          = {https://doi.org/10.5281/zenodo.3852912}
+}
+```
 
 ## Acknowledgements
 
